@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Q.css">
+    <title>Quiz-game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <div class="content">
+                <h1 class="question">What is your name?</h1>
+                <div class="answers">
+                    <div class="answer">
+                        <input type="radio" id="answer1" value="false" name="ans" style="cursor: pointer;">
+                        <label for="answre1">Answer1</label>
+                    </div>
+                    <div class="answer">
+                        <input type="radio" id="answer1" value="false" name="ans" style="cursor: pointer;">
+                        <label for="answre1">Answer2</label>
+                    </div>
+                    <div class="answer">
+                        <input type="radio" id="answer1" value="false" name="ans" style="cursor: pointer;">
+                        <label for="answre1">Answer3</label>
+                    </div>
+                    <div class="answer">
+                        <input type="radio" id="answer1" value="false" name="ans" style="cursor: pointer;">
+                        <label for="answre1">Answer4</label>
+                    </div>
+                </div>
+            </div>
+            <button class="submit">Submit</button>
+        </div>
+        <div class="result">
+            <h1 class="congo">Congratulations!</h1>
+            <h3 class="correct">Correct Answers:0</h3>
+            <h3 class="wrong">Wrong Answers:0</h3>
+            <h2 class="score">Total Score:0</h2>
+            <button class="play">Play Again</button>
+        </div>
+    </div>
+    <script src="Q.js"></script>
+</body>
+</html>
